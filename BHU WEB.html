@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banaras Hindu University</title>
+</head>
+<style>
+     /* General Reset */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
+   
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white; /* Navy blue background */
+    color: #00274c;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    margin-right: 8px;
+}
+
+.nav-bar ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar ul li a {
+    color: #033685;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-bar ul li a:hover {
+    color: #9b1204; /* Highlight color */
+}
+
+.header-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.resources-btn, .give-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.resources-btn {
+    background-color: #fceeed;
+    color: #00274c;
+}
+
+.resources-btn:hover {
+    background-color: #a7645f;
+}
+
+.give-btn {
+    background-color: #820c03;
+    color: white;
+}
+
+.give-btn:hover {
+    background-color: #d86604;
+}
+/* Main Content */
+.main-content {
+    background-image: url(R.jpeg); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.background-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    box-sizing: border-box;
+}
+body {
+  background-image: url(R.jpeg);
+}
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-
+	gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(R.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.navbar {
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+	width: 120px;
+	cursor: pointer;
+}
+
+ .navbar ul li{
+	 list-style: none;
+	 display: inline-block;
+	 margin: 0 20px; 
+ }
+ 
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.right-links a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.btn-red {
+    background-color: #990000;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-text {
+    max-width: 800px;
+}
+
+.hero-text .subtitle {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #ccc;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.hero-text .description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: #ddd;
+}
+
+
+.right-links a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.btn-red {
+    background-color: #990000;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.events-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.events-section h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+	color:#033e81;
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.event-card {
+    background: #023c7e;
+    border: 1px solid #ddd;
+    padding: 20px;
+    position: relative;
+    text-align: left;
+}
+
+.event-image {
+    position: relative;
+}
+
+.event-image img {
+    width: 100%;
+    height: auto;
+}
+
+.date-box {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #990000;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.date-box .month {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.date-box .day {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.event-description {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.support-section {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.support-card {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.support-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.support-card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.btn-light {
+    background-color: #ddd;
+    color: #000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-dark {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.right-links a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.btn-red {
+    background-color: #990000;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.priorities-section {
+    background-color: #00274c;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.priorities-section h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.priorities-section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.priorities-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.priority-card {
+    background-color: #fff;
+    color: #000;
+    width: 300px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.priority-card img {
+    width: 100%;
+    height: auto;
+}
+
+.priority-info {
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.priority-info h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-arrow {
+    background-color: #990000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.stay-connected {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.stay-connected h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+	color:#900C3F;
+}
+
+.connected-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.connected-card {
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.connected-card img {
+    width: 100%;
+    height: auto;
+}
+
+.text-card {
+    padding: 20px;
+    text-align: left;
+}
+
+.text-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.social-handle {
+    font-weight: bold;
+    color: #00274c;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #00274c;
+    color: #fff;
+}
+
+.footer-top {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+		color:white;
+}
+
+.nondiscrimination p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.btn-outline {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.footer-bottom {
+    background-color: #001d3d;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+}
+
+.footer-logo a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-links h3, .footer-heritage h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-heritage p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-heritage a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-bottom-links {
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-bottom-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #00274c;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+</style>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="dr.jpg" alt="University Logo" class="logo" style="width:250px;height:80px;">
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#"><b>Academics</b></a></li>
+                <li><a href="#"><b>Admissions</b></a></li>
+                <li><a href="#"><b>Alumni</b></a></li>
+                <li><a href="#"><b>Research & Innovation</b></a></li>
+                <li><a href="#"><b>Life at BHU</b></a></li>
+                <li><a href="#"><b>About</b></a></li>
+            </ul>
+        </nav>
+        <div class="header-buttons">
+            <a href="#" class="resources-btn">Resources</a>
+            <a href="#" class="give-btn">Give to BHU</a>
+        </div>
+		    </header>
+    <main class="main-content">
+        <div class="background-overlay">
+            <div class="content">
+                <h1>Banaras Hindu University</h1>
+                <p>Banaras Hindu University is an internationally reputed temple of learning, situated in the holy city of Varanasi. 
+				This creative and innovative university was founded by the great nationalist leader, Pandit Madan Mohan Malaviya, in 1916, 
+				through close cooperation with great personalities like Dr Annie Besant, who viewed it as the University of India. 
+				Banaras Hindu University was established by the Parliamentary legislation-B.H.U. Act 1915.</p>
+            </div>
+        </div>
+    </main>
+</body>
+<body>
+    <main>
+        <section class="events-section">
+            <h1>Upcoming Events</h1>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="ev.png" alt="Event">
+                        <div class="date-box">
+                            <span class="month">JAN</span>
+                            <span class="day">23</span>
+                        </div>
+                    </div>
+                    <div class="event-info">
+                        <h2>Indian Visual Cultures through Paint, Print and Digital Media</h2>
+                        <p class="event-description">
+                             Shifting Patterns and Shaping Possibilities.
+                        </p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="date-box">
+                        <span class="month">JAN</span>
+                        <span class="day">24</span>
+                    </div>
+                    <div class="event-info">
+                        <h2>National Seminar on Innovative Strategies and Sustainable Efforts for Viksit Bharat through Social Inclusion</h2>
+                        <p class="event-description">
+                            Social inclusion is a fundamental pillar of Viksit Bharat 
+approach.According to World Bank “Social inclusion is the process 
+of improving the terms on which individuals and groups take part in 
+society—improving the ability, opportunity, and dignity of those 
+disadvantaged on the basis of their identity”. In this context, the 
+Governmentalso aims at to create a society where every person, 
+regardless of their socio-economic background, gender, ethnicity, or 
+physical disability gets an equal opportunity to participate in and get 
+benefits from national progress.The ‘Viksit Bharat@2047’is the agenda of Government of India to 
+establish India as a fully developed nation by its 100thanniversary of 
+its independence in 2047. This comprehensive plan extends to 
+important areas like social equality, economic development, 
+environment, digital empowerment, and effective governance etc., 
+are integral parts which are helping in building a prosperous, 
+inclusive, and resilient India.  
+                        </p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="date-box">
+                        <span class="month">FEB</span>
+                        <span class="day">03</span>
+                    </div>
+                    <div class="event-info">
+                        <h2>International Conference on Environment and Sustainable Development ICESD – 2025</h2>
+                        <p class="event-description">
+                            The International Conference on Environment and Sustainable 
+Development, convened by the Institute of Environment and Sustainable 
+Development (IESD) at Banaras Hindu University, serves as a platform 
+for addressing pressing global environmental challenges and promoting 
+sustainable development strategies. The conference encompasses a broad 
+spectrum of critical themes, including environmental issues, sustainable 
+technologies, food security, climate change, biotechnology, and 
+governance. It endeavours to explore solutions for managing pollution, 
+urbanisation, biodiversity loss, and other environmental crises, while 
+also advancing discussions on nature-based solutions, renewable energy, 
+and sustainable agricultural practices. Furthermore, the conference 
+emphasises the significance of national and international policies, legal 
+frameworks, and ethical considerations in achieving environmental 
+sustainability. By facilitating interdisciplinary dialogue among experts 
+and stakeholders, the conference fosters collaboration and innovative 
+approaches to advancing the objectives of sustainable development.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<body>
+    <main>
+        <section class="priorities-section">
+            <h1>BHU Priorities</h1>
+            <p>A look at a few of our big picture priorities that improve Bhu as we create knowledge to benefit the world.</p>
+            <div class="priorities-grid">
+                <div class="priority-card">
+                    <img src="RE.jpg" alt="Research & Innovation">
+                    <div class="priority-info">
+                        <h2>Research & Innovation</h2>
+                        <a href="#" class="btn-arrow">></a>
+                    </div>
+                </div>
+                <div class="priority-card">
+                    <img src="cl.jpg" alt="In Principle & Practice">
+                    <div class="priority-info">
+                        <h2>In Principle & Practice</h2>
+                        <a href="#" class="btn-arrow">></a>
+                    </div>
+                </div>
+                <div class="priority-card">
+                    <img src="cm.jpeg" alt="Climate and Sustainability Action Plan">
+                    <div class="priority-info">
+                        <h2>Climate and Sustainability Action Plan</h2>
+                        <a href="#" class="btn-arrow">></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="stay-connected">
+            <h2>Stay Connected</h2>
+            <div class="connected-grid">
+                <div class="connected-card">
+                    <img src= "rn.jpeg" alt="bhu Building">
+                </div>
+                <div class="connected-card text-card">
+                    <img src= "rn2.jpeg" alt="bhu Building">
+                    <p class="social-handle">BHU GATE</p>
+                </div>
+                <div class="connected-card">
+                    <img src="rn3.jpeg" alt="Person with helmet">
+                </div>
+            </div>
+        </section>
+    </main>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bhu Footer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <footer>
+        <div class="footer-top">
+            <div class="social-icons">
+               <a href="#"><h2>ⓕ Facebook</h2></a>
+               <a href="#"><h2>𝕏 Twitter</h2></a>
+               <a href="#"><h2>▶ YouTube</h2></a>
+               <a href="#"><h2>🇮🇳 LinkedIn</h2></a>
+            </div>
+            <div class="nondiscrimination">
+                <a href="#" class="btn-outline">Nondiscrimination Statement</a>
+            </div>
+        </div>
+    </footer>
+	<div class="container">
+    <header class="header">
+        <h1>Banaras Hindu University</h1>
+        <p>Ajagara, Varanasi, Uttar Pradesh 221005, India</p>
+        <p>Telephone: 86xxxxxxxxxx</p>
+      </div>
+    </header>
+
+    <footer class="footer">
+      <ul>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Maps</a></li>
+        <li><a href="#">Parking</a></li>
+      </ul>
+      <div class="footer-links">
+        <a href="#">Disclaimer</a>
+        <a href="#">Emergency Services</a>
+        <a href="#">Nondiscrimination</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Report Accessibility Issues and Get Help</a>
+        <a href="#">Report Copyright Infringement</a>
+      </div>
+    </footer>
+</body>
+</html>
